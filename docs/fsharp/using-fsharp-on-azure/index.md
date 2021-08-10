@@ -29,9 +29,9 @@ Azure Functions support F# as a first-class language with efficient, reactive, s
 
 Other resources for using Azure Functions and F#:
 
+* [How to create Azure function in F#](https://www.aaron-powell.com/posts/2020-01-13-creating-azure-functions-in-fsharp/)
 * [Scale Up Azure Functions in F# Using Suave](https://blog.tamizhvendan.in/blog/2016/09/19/scale-up-azure-functions-in-f-number-using-suave/)
-* [How to create Azure function in F#](https://www.mnie.me/azurefunctions)
-* [Using the Azure Type Provider with Azure Functions](https://compositional-it.com/blog/2017/08-30-using-the-azure-type-provider-with-azure-functions/index.html)
+<!-- * [Using the Azure Type Provider with Azure Functions](https://compositional-it.com/blog/2017/08-30-using-the-azure-type-provider-with-azure-functions/index.html) -->
 
 ## Using Azure Storage with F\#
 
@@ -53,7 +53,11 @@ Azure Storage can also be used in conjunction with Azure Functions through decla
 
 ## Using Apache Spark with F# on Azure HDInsight or Azure Databricks
 
-[Apache Spark for Azure HDInsight](/azure/hdinsight/spark/apache-spark-overview) is an open source processing framework that runs large-scale data analytics applications. [Azure Databricks](/azure/databricks/scenarios/what-is-azure-databricks) is an Apache Spark-based analytics platform optimized for the Microsoft Azure cloud services platform. Azure makes Apache Spark easy and cost effective to deploy. Develop your Spark application in F# using [.NET for Apache Spark](../../spark/what-is-apache-spark-dotnet.md), a set of .NET bindings for Apache Spark.
+Azure makes Apache Spark easy and cost effective to deploy. Develop your Spark application in F# using [.NET for Apache Spark](../../spark/what-is-apache-spark-dotnet.md), a set of .NET bindings for Apache Spark.
+
+[Apache Spark for Azure HDInsight](/azure/hdinsight/spark/apache-spark-overview) is an open source processing framework that runs large-scale data analytics applications.
+
+[Azure Databricks](/azure/databricks/scenarios/what-is-azure-databricks) is an Apache Spark-based analytics platform optimized for the Microsoft Azure cloud services platform.
 
 * [.NET for Apache Spark F# samples](https://github.com/dotnet/spark/tree/main/examples/)
 * [Install .NET Interactive Jupyter notebooks in Azure HDInsight](../../spark/how-to-guides/hdinsight-notebook-installation.md)
