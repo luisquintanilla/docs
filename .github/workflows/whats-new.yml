@@ -32,7 +32,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@c85c95e3d7251135ab7dc9ce3241c5835cc595a9
       - name: Setup .NET
-        uses: actions/setup-dotnet@607fce577a46308457984d59e4954e075820f10a
+        uses: actions/setup-dotnet@3447fd6a9f9e57506b15f895c5b76d3b197dc7c2
         with:
           dotnet-version: ${{ env.DOTNET_VERSION }}
 
