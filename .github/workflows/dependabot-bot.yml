@@ -43,7 +43,7 @@ jobs:
           root-directory: "/github/workspace"
           dependabot-yml-path: ".github/dependabot.yml"
       - name: Create pull request
-        uses: peter-evans/create-pull-request@d7db273d6c7206ba99224e659c982ae34a1025e3
+        uses: peter-evans/create-pull-request@70a41aba780001da0a30141984ae2a0c95d8704e
         with:
           title: "Update dependabot.yml - automatically."
           body: ".NET dependabot-bot automated PR. 🤖"
