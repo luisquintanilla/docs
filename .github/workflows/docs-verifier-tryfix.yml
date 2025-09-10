@@ -13,7 +13,7 @@ jobs:
       IS_TRY_FIX: true # differentiates /tryfix from the validation-only run.
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea
+      - uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd
         id: get-pr
         with:
           script: |
