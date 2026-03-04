@@ -30,7 +30,7 @@ jobs:
               core.setFailed(`Request failed with error ${err}`)
             }
       - name: Checkout the repository
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8
+        uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
 
       - name: Checkout Pull Request
         run: |
